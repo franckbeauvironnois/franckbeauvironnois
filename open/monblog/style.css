@@ -1,0 +1,406 @@
+
+
+h1
+   {
+   
+    text-align: center;
+    color:  #791cf8;
+    border-radius:10px ;
+   border: 3px rgb(151, 237, 243) solid;
+   box-shadow: 6px 6px 0px black;
+   text-shadow: 2px 2px 4px black;
+   margin-bottom: 80px;
+   font-size: 50px; 
+   background-image:url(/open/monblog/images/indig.jpg);
+   line-height: 100px
+
+   }
+
+    p
+    {
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: 'ambleregular';
+    font-size: x-large;
+    }
+
+body
+{
+    background-color: #0874ff;
+    width: 100%;
+    height: 100%;
+}
+
+h2
+{
+    text-align: center;
+    color:  #791cf8;
+    border-radius:10px ;
+   border: 3px rgb(151, 237, 243) solid;
+   box-shadow: 6px 6px 0px black;
+   text-shadow: 2px 2px 4px black;
+   font-size: 30px; 
+   background-color:white;
+   margin-bottom: 80px;
+   background-image:url(/open/monblog/images/indig.jpg);
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+
+.music1
+{
+    margin-right:100px ;
+    
+    
+
+}
+
+.music2
+{
+    margin-right:100px;
+
+}
+
+.music3
+{
+    margin-right:100px ;
+    
+}
+
+.section
+{
+    display: inline-block;
+     padding: 50px;
+     margin-left:40px;
+    
+}
+  
+
+
+.mode /*pour center une image ajouter dislay block avec une marge de 0px auto*/
+{
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+
+
+#p-photo_Franck
+{
+    text-align: center;
+}
+
+#photo_Franck
+{
+    padding-right: 60px;
+}
+
+.img3
+{
+    padding-left: 60px;
+}
+
+nav
+{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px black;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Lucida Console", Courier, monospace;
+    background-image:url(/open/monblog/images/indig.jpg);
+    
+    }
+
+    ul
+    {
+        list-style-type: none ;
+        
+    }
+
+    li
+    {
+        text-align: center;
+        font-size: 30px;
+    
+    
+    }
+
+    a
+    {
+        text-decoration: none;
+        color:  #791cf8;
+    }
+
+     .img1,.img2{
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+        margin-top: 20px;
+
+     }
+    .magic{
+        display: flex; /*pour aligner mes images*/
+        width: 80%;
+        margin: 70px auto 0;
+        flex-wrap: wrap;/*passer les images les une en dessous des autres*/
+        justify-content: space-between; /*re centrer le container(galerie*/
+      }
+
+    .slide{
+        float:left;
+    }
+    
+    .slides{
+        width: calc(500px * 3 );
+        animation: glisse 10s infinite;
+    }
+    
+    .slider{
+    overflow: hidden;
+    width: 500px;
+    margin:100px auto;
+    box-shadow: 6px 6px 6px white;
+    }
+    
+    @keyframes glisse{
+    
+      
+    0%{
+        transform: translatex(0);
+    }  
+    
+    
+    10%{
+        transform: translatex(0);
+    }
+    
+    33%{
+        transform: translatex(-500px);
+    }
+    43%{
+        transform: translatex(-500px);
+    }
+    
+    66%{
+        transform: translatex(-1000px);
+    }
+    
+    76%{
+        transform: translatex(-1000px);
+    }
+    
+    100%{
+        transform: translatex(0);
+      }
+    
+     }
+
+     *, ::before, ::after{
+        box-sizing: border-box;
+        margin: 0;
+        padding:0;
+       
+
+       }
+       
+        #carrousel{
+        position: relative;
+          height: 500px;
+            max-width: 1000px;
+        border: solid 4px #FFF;
+        box-shadow: 0 0 14px rgba(0,0,0,0,3);
+         overflow: hidden; 
+         margin-top :20px;
+          margin: 100px auto;
+          width: 100%;
+          
+        
+        }
+        
+        #container{
+           width: 100%;
+            display: block;
+        }
+        
+        .photo {
+            max-width: 100%;
+            width: 1000px;
+            height: 500px;
+            margin: 0;
+            display:inline-block;
+            background-size: cover;
+        
+        }
+
+        
+        
+        .bouton{
+        
+            position: absolute;
+            width: 70px;
+            cursor: pointer;
+            top: 200px;
+        }
+        
+        
+        #g{
+        left: 0;
+        opacity: 0.4;
+        transform:rotate(0deg);
+        transition: all 0.3s ease;
+        
+        }
+        
+        #d{
+        right: 0;
+        opacity: 0.4;
+        transform:rotate(180deg);
+        transition: all 0.3s ease;
+        }
+        
+        #g:hover{
+            transform:rotate (0deg) scale(1.1);
+            opacity: 1;
+            transition: all 0.3s ease;
+        }
+        
+        #d:hover{
+            transform:rotate (180deg) scale(1.1);
+            opacity: 1;
+            transition: all 0.3s ease;
+        }
+
+
+          .control ul {
+            list-style: none;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin: 0;
+            padding: 0;
+            transform: translate(-50%);
+          }
+          .control ul li {
+            width: 10px;
+            height: 10px;
+            background: #333;
+            border: 2px solid #333;
+            border-radius: 50px;
+            margin: 10px;
+            cursor: pointer;
+          }
+          .control ul li.selected {
+            background: transparent;
+          }
+
+         
+         
+
+          .galerie{
+   
+            display: flex; /*pour aligner mes images*/
+            width: 80%;
+            margin: 70px auto 0;
+            flex-wrap: wrap;/*passer les images les une en dessous des autres*/
+            justify-content: space-between; /*re centrer le container(galerie*/
+        
+        }
+
+        span{
+
+            color: red;
+         }
+    
+
+         .nt{
+            margin-top: 40px;
+            border: 4px solid red;
+            padding-top: 20px;
+            padding-left:20px ;
+            padding-right: 20px;
+            margin:40px;
+
+         }
+
+         #canvas{
+            position:relative;
+            left:0px ;
+            top:0px ;
+            right:0 ;
+            bottom: 0;  
+        
+
+            
+            }
+            
+            .ken{
+            
+            position :relative;
+            bottom:210px;
+            margin-left: 400px;
+            left: 120px;
+            
+            
+            
+            
+            }
+            
+            .ryu{
+            
+            position: relative;
+            bottom:210px;
+            right:120px;
+            
+           
+            
+            }
+
+            form{
+
+              position: relative;  
+              left:100px;
+            }
+
+          #music{
+          position: relative;
+         bottom: 120px;
+           }
+
+            .galeries{
+   
+                display: flex; /*pour aligner mes images*/
+                max-width: 1000px;
+                width: 80%;
+                margin: 0px auto 0;
+                flex-wrap: wrap;/*passer les images les une en dessous des autres*/
+                justify-content: center; /*re centrer le container(galerie*/
+                
+            }
+            
+        
+        
+
+
+      
+     
+       
+     
+   
+    
+
+     
+
+    
+
+   
+

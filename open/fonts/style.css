@@ -1,0 +1,101 @@
+
+
+
+
+.item {
+ margin: 40px 10px;   
+ background-color: #fff;
+ box-shadow: 0 15px 35pc #3232321a,0 5px 15px #0000001a;
+ transition: transform(0, -1px,0);
+}
+
+
+.item:hover {
+
+    transform:translate3d(0, -10px,0);
+}
+
+
+.item img {
+
+display: block;
+width: 100%;
+height: auto;
+
+
+}
+
+
+.items{
+
+    position: relative;
+}
+
+.carousel{
+
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+.carousel__item{
+
+    position: relative;
+    margin: auto;
+}
+
+.carousel__container::after {
+
+    content:'';
+    clear: both;
+    display: table;
+}
+
+
+
+    .bouton{
+        position: absolute;
+        width: 70px;
+        cursor: pointer;
+        top: 400px;
+       
+    }
+    
+    
+    #g{
+    left: 0;
+    opacity: 0.4;
+    transform:rotate(0deg);
+    transition: all 0.3s ease;
+    
+    }
+    
+    #d{
+    right: 0;
+    opacity: 0.4;
+    transform:rotate(180deg);
+    transition: all 0.3s ease;
+    }
+    
+    #g:hover{
+        transform:rotate (0deg) scale(1.1);
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+    
+    #d:hover{
+        transform:rotate (180deg) scale(1.1);
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+
+
+  #container{
+           width: 100%;
+            display: block;
+        }
+   
+    
+
+ 
