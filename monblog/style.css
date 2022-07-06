@@ -1,0 +1,213 @@
+
+
+h1
+   {
+    color: #791cf8;
+    text-align: center;
+    border-radius:10px ;
+   border: 3px rgb(151, 237, 243) solid;
+   box-shadow: 6px 6px 0px black;
+   text-shadow: 2px 2px 4px black;
+   margin-bottom: 80px;
+   margin-top: 150px;
+   font-size: 50px; 
+   background-image:url(/open/monblog/images/indig.jpg);
+   line-height: 100px
+
+   }
+
+   .ml3,.ml4,.ml5,.ml6 {
+    font-weight: 900;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+
+
+
+  
+    p
+    {
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: 'ambleregular';
+    font-size: x-large;
+    }
+
+body
+{
+    background-color: #0874ff;
+    width: 100%;
+    height: 100%;
+}
+
+h2
+{
+    text-align: center;
+    color:  #791cf8;
+    border-radius:10px ;
+   border: 3px rgb(151, 237, 243) solid;
+   box-shadow: 6px 6px 0px black;
+   text-shadow: 2px 2px 4px black;
+   font-size: 30px; 
+   background-color:white;
+   margin-bottom: 80px;
+   background-image:url(/open/monblog/images/indig.jpg);
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+
+.music1
+{
+    margin-right:100px ;
+    
+    
+
+}
+
+.music2
+{
+    margin-right:100px;
+
+}
+
+.music3
+{
+    margin-right:100px ;
+    
+}
+
+.section
+{
+    display: inline-block;
+     padding: 50px;
+     margin-left:40px;
+    
+}
+  
+
+
+.mode /*pour center une image ajouter dislay block avec une marge de 0px auto*/
+{
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+
+
+#p-photo_Franck
+{
+    text-align: center;
+}
+
+#photo_Franck
+{
+    padding-right: 60px;
+}
+
+.img3
+{
+    padding-left: 60px;
+}
+
+nav
+{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px black;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Lucida Console", Courier, monospace;
+    background-image:url(/open/monblog/images/indig.jpg);
+    
+    }
+
+    ul
+    {
+        list-style-type: none ;
+        
+    }
+
+    li
+    {
+        text-align: center;
+        font-size: 30px;
+    
+    
+    }
+
+    a
+    {
+        text-decoration: none;
+        color:  #791cf8;
+    }
+
+     .img1,.img2{
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+        margin-top: 20px;
+
+     }
+
+
+     
+     
+
+    .magic{
+        display: flex; /*pour aligner mes images*/
+        width: 80%;
+        margin: 70px auto 0;
+        flex-wrap: wrap;/*passer les images les une en dessous des autres*/
+        justify-content: space-between; /*re centrer le container(galerie*/
+      }
+
+    
+         
+
+       
+        span{
+
+            color: red;
+         }
+    
+
+         .nt{
+            margin-top: 40px;
+            border: 4px solid red;
+            padding-top: 20px;
+            padding-left:20px ;
+            padding-right: 20px;
+            margin:40px;
+
+         }
+
+         
+            
+        
+        
+
+
+      
+     
+       
+     
+   
+    
+
+     
+
+    
+
+   
+

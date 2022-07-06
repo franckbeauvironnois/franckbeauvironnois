@@ -1,0 +1,84 @@
+.letter{
+
+    color:red
+  }
+
+  .letters{
+
+    color: darkorange;
+  }
+
+  .letterse{
+
+    color: blue;
+  }
+
+  .letterses{
+
+    color:black;
+  }
+  .galerie{
+   
+    display: flex; /*pour aligner mes images*/
+    width: 80%;
+    margin: 70px auto 0;
+    flex-wrap: wrap;/*passer les images les une en dessous des autres*/
+    justify-content: space-between; /*re centrer le container(galerie*/
+
+}
+
+
+#canvas{
+    position:relative;
+    left:0px ;
+    top:0px ;
+    right:0 ;
+    bottom: 0;  
+
+
+    
+    }
+    
+    .ken{
+    
+    position :relative;
+    bottom:210px;
+    margin-left: 400px;
+    left: 120px;
+    
+    
+    
+    
+    }
+    
+    .ryu{
+    
+    position: relative;
+    bottom:210px;
+    right:120px;
+    
+   
+    
+    }
+
+    form{
+
+      position: relative;  
+      left:100px;
+    }
+
+  #music{
+  position: relative;
+ bottom: 120px;
+   }
+
+    .galeries{
+
+        display: flex; /*pour aligner mes images*/
+        max-width: 1000px;
+        width: 80%;
+        margin: 0px auto 0;
+        flex-wrap: wrap;/*passer les images les une en dessous des autres*/
+        justify-content: center; /*re centrer le container(galerie*/
+        
+    }

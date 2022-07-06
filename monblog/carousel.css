@@ -1,0 +1,150 @@
+.slide{
+    float:left;
+}
+
+.slides{
+    width: calc(500px * 3 );
+    animation: glisse 10s infinite;
+}
+
+.slider{
+overflow: hidden;
+width: 500px;
+margin:100px auto;
+box-shadow: 6px 6px 6px white;
+}
+
+@keyframes glisse{
+
+  
+0%{
+    transform: translatex(0);
+}  
+
+
+10%{
+    transform: translatex(0);
+}
+
+33%{
+    transform: translatex(-500px);
+}
+43%{
+    transform: translatex(-500px);
+}
+
+66%{
+    transform: translatex(-1000px);
+}
+
+76%{
+    transform: translatex(-1000px);
+}
+
+100%{
+    transform: translatex(0);
+  }
+
+ }
+
+ *, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+   
+
+   }
+   
+    #carrousel{
+    position: relative;
+      height: 500px;
+        max-width: 1000px;
+    border: solid 4px #FFF;
+    box-shadow: 0 0 14px rgba(0,0,0,0,3);
+     overflow: hidden; 
+     margin-top :20px;
+      margin: 100px auto;
+      width: 100%;
+    
+    
+    }
+    
+    #container{
+       width: 100%;
+        display: block;
+      
+    }
+    
+    .photo {
+        max-width: 100%;
+        width: 1000px;
+        height: 500px;
+        margin: 0;
+        display:inline-block;
+        background-size: cover;
+       
+    }
+
+    
+    
+    .bouton{
+    
+        position: absolute;
+        width: 70px;
+        cursor: pointer;
+        top: 200px;
+    }
+    
+    
+    #g{
+    left: 0;
+    opacity: 0.4;
+    transform:rotate(0deg);
+    transition: all 0.3s ease;
+    
+    }
+    
+    #d{
+    right: 0;
+    opacity: 0.4;
+    transform:rotate(180deg);
+    transition: all 0.3s ease;
+    }
+    
+    #g:hover{
+        transform:rotate (0deg) scale(1.1);
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+    
+    #d:hover{
+        transform:rotate (180deg) scale(1.1);
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+
+
+      .control ul {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin: 0;
+        padding: 0;
+        transform: translate(-50%);
+      }
+      .control ul li {
+        width: 10px;
+        height: 10px;
+        background: #333;
+        border: 2px solid #333;
+        border-radius: 50px;
+        margin: 10px;
+        cursor: pointer;
+      }
+      .control ul li.selected {
+        background: transparent;
+      }
+
+     
