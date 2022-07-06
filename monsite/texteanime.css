@@ -1,0 +1,44 @@
+.animated-text{
+
+    margin-top: 150px;
+
+
+     }
+
+     .animated-text--typing{
+
+        text-align: center;
+        margin-bottom: 100px;
+     }
+      
+
+     .animated-text span:not(.fade) {
+        opacity:0;
+        transform: translateY(50%) rotate(45deg);
+      }
+      
+      .animated-text span {
+        transition:all .4s;
+        display:inline-block;
+        color:blue;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 auto;
+      }
+      
+      .animated-text--typing span.fade + span:not(.fade) {
+        transition: none;
+        background:black;
+        opacity:1;
+        transform: none;
+        color:transparent;
+      }
+
+       
+  .doe{
+
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
